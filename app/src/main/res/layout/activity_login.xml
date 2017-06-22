@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bx.show.Login"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="用户名"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/username"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="密码："
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/username" />
+
+    <Button
+        android:text="登陆"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login" />
+
+    <TextView
+        android:text="服务器返回"
+        android:layout_width="match_parent"
+        android:id="@+id/infotv"
+        android:layout_height="50dp" />
+
+    <Button
+        android:text="去注册"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/torigister" />
+
+</LinearLayout>
